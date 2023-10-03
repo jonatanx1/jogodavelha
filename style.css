@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&display=swap');
+ 
+body {
+    font-family: "open sans";
+}
+
+h2 {
+    margin-top: -5px;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 240px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: rgb(245, 243, 243);
+    border: 3px solid rgb(0, 163, 238);
+}
+
+.grid {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+}
+
+.celula {
+    width: 75px;
+    height: 65px;
+    font-size: 30pt;
+    margin: 4px 2px;
+    font-weight: 300;
+    padding-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+    background-color: rgb(7, 141, 230);
+}
+
+.botao-recarregar {
+    display:block;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 2px solid whitesmoke;
+    background-color: rgb(10, 168, 241);
+    color: #fff;
+    cursor: pointer;
+}
